@@ -42,7 +42,7 @@ import time
 
 # for i in a:
 #     for j in b:
-#         if i==j:
+#         if i==j and i not in same:
 #             same.append(i)
             
 # print(same)
@@ -85,7 +85,21 @@ import time
 #     check=input("Do you want to start a new game? [Y,N] : ")
 #     if(check=="N"):
 #         flag=False;
+######################################################using Dictionary
+# wincheck={"rock":"scissors",
+#           "scissors":"paper",
+#           "paper":"rock"}
+# player1=input("P1 : Rock , Paper or Scissors : ").lower()
+# player2=input("P2 : Rock , Paper or Scissors : ").lower()
 
+# if player1==player2:
+#     print("DRAW!")
+# elif wincheck.get(player1)==player2:
+#     print("Player 1 WINS!")
+# else:
+#     print("Player2 WINS!")
+    
+    
 # #Q9
 # 
 # RandNo=random.randint(1,9)
