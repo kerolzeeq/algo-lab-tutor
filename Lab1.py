@@ -54,13 +54,13 @@ import time
 # for i in word:
 #     check=i+check
 
-# if(check==word):
+# if(check.lower()==word.lower()):
 #     print(word+" is a Palindrome")
 # else:
 #     print(word+" is NOT a Palindrome")
-# ####################### ni kalau guna predefined fx
-# # check=''.join(reversed(word))
-# # print(check)
+####################### ni kalau guna predefined fx
+# check=''.join(reversed(word))
+# print(check)
     
 # #Q7
 # a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
