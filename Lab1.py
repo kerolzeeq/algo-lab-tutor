@@ -123,7 +123,7 @@ import time
 #         if numb%divisor==0:
 #             flag=False
 
-# if flag==True:
+# if flag==True and numb>1:
 #     print(str(numb)+" is a prime number")
 # else:
 #     print(str(numb)+" is NOT a prime number")
