@@ -18,8 +18,9 @@ import time
 
 # #Q3
 # a = [1,1,2,3,5,8,13,21,34,55,89]
-# for a in range(6):
-#     print(a)
+# for i in a:
+#     if i<5:
+#         print(i)
 
 
 # #Q4
@@ -156,19 +157,19 @@ import time
 #     y=i+" "+y
 # print(y)
 
-#Q15
-startTime=time.time()
-def password(userInput):
-    specialCharacter = [random.choice(string.punctuation) for character in range(userInput)]
-    wordLower = [random.choice(string.ascii_lowercase) for lower in range(userInput)]
-    wordUpper = [random.choice(string.ascii_uppercase) for upper in range(userInput)]
-    numbers = [random.choice(string.digits) for number in range(userInput)]
-    generatedPassword = ''.join(specialCharacter + wordLower + wordUpper + numbers)
-    generatedPassword = ''.join(random.choice(generatedPassword) for value in range(userInput))
-    return generatedPassword
+# #Q15
+# startTime=time.time()
+# def password(userInput):
+#     specialCharacter = [random.choice(string.punctuation) for character in range(userInput)]
+#     wordLower = [random.choice(string.ascii_lowercase) for lower in range(userInput)]
+#     wordUpper = [random.choice(string.ascii_uppercase) for upper in range(userInput)]
+#     numbers = [random.choice(string.digits) for number in range(userInput)]
+#     generatedPassword = ''.join(specialCharacter + wordLower + wordUpper + numbers)
+#     generatedPassword = ''.join(random.choice(generatedPassword) for value in range(userInput))
+#     return generatedPassword
 
-question = eval(input("Please enter the password length: "))
-answer = password(question)
-print(answer)
-endTime=time.time()
-print("Time-Complexity : ",endTime-startTime)
+# question = eval(input("Please enter the password length: "))
+# answer = password(question)
+# print(answer)
+# endTime=time.time()
+# print("Time-Complexity : ",endTime-startTime)
