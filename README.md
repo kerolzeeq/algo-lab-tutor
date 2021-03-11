@@ -1,6 +1,6 @@
 # algo-lab-tutor
 
-Lab answers for WIA2005 Operation System (UM) subject. Open for all to contribute and refer.
+Lab answers for WIA2005 Algorithm and Analysis (UM) subject. Open for all to contribute and refer.
 
 ### To refer
 - Clone repository.
